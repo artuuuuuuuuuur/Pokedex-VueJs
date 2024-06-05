@@ -1,3 +1,5 @@
 module.exports = {
-  publicPath: '/Pokedex-VueJs/'
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/my-project/'
+    : '/'
 }
