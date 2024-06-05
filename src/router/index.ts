@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Pokedex from '@/pages/Pokedex.vue'
 import PokemonPage from '@/pages/PokemonPage.vue'
 import Party from '@/pages/Party.vue'
+// @ts-ignore
 import TrainerCard from '@/pages/TrainerCard.vue'
 const routes = [
     {
